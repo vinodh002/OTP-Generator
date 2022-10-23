@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Digital_rain_animation_medium_letters_shine.gif);
+}
+
+@font-face {
+  font-family: "PolkaDotCrazy";
+  src: url(./PolkaDotCrazy.ttf);
+}
+
+@font-face {
+  font-family: "Groove";
+  src: url(./GroovedPersonalUseRegular-9Y350.ttf);
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(92, 132, 95, 0.724);
+  padding: 20px 0;
+  font-family: "PolkaDotCrazy";
+  word-spacing: 20px;
+}
+
+button {
+  padding: 20px;
+  cursor: pointer;
+  border: none;
+  font-family: "Groove";
+  font-size: 1.2rem;
+  background-color: rgba(129, 249, 92, 0.457);
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(18, 78, 0, 0.872);
+  border: none;
+}
+
+.box {
+  box-shadow: 2px 2px 4px rgba(255, 247, 247, 0.708);
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  font-family: "Groove";
+  background-color: rgba(255, 247, 247, 0.411);
+}
+
+p {
+  font-size: 2rem;
+}
+span {
+  font-family: "PolkaDotCrazy";
+  border-bottom: 1px dashed black;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+
